@@ -1,0 +1,17 @@
+{
+  "name": "temporal-testing",
+  "version": "1.0.0",
+  "description": "An example of completing common date related tasks with both Moment.js and the Temporal API.",
+  "main": "index.mjs",
+  "author": "Anthony Hastings <ar.hastings@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.mjs"
+  },
+  "dependencies": {
+    "@js-temporal/polyfill": "0.4.1",
+    "moment": "2.29.3",
+    "moment-timezone": "0.5.34",
+    "nodemon": "2.0.15"
+  }
+}
